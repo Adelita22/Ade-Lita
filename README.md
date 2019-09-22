@@ -1,5 +1,5 @@
 # Ade-Lita
-Ade Lita
+
 select * from DAFTAR_MAHASISWA
 
 INSERT INTO DAFTAR_MAHASISWA(nim, nama, alamat, no_hp)
