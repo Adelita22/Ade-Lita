@@ -46,26 +46,26 @@ select * from DAFTAR_DOSEN
 INSERT INTO DAFTAR_DOSEN(nidn, nama, alamat, no_hp)
 VALUES('0001110123', 'Marzuki Silalahi', '', '089778865476')
 
-INSERT INTO DAFTAR_DOSEN(nim, nama, alamat, no_hp)
+INSERT INTO DAFTAR_DOSEN(nidn, nama, alamat, no_hp)
 VALUES('0001110124', 'Bahrul Ulum', 'Jl. Boelevard', '');
 
-INSERT INTO DAFTAR_DOSEN(nim, nama, alamat, no_hp)
+INSERT INTO DAFTAR_DOSEN(nidn, nama, alamat, no_hp)
 VALUES('0001110125', 'Masmur Tarigan', '', '')
 
-INSERT INTO DAFTAR_DOSEN(nim, nama, alamat, no_hp)
+INSERT INTO DAFTAR_DOSEN(nidn, nama, alamat, no_hp)
 VALUES('0001110126', 'Binastri Anggara', '', '')
 
-INSERT INTO DAFTAR_DOSEN(nim, nama, alamat, no_hp)
+INSERT INTO DAFTAR_DOSEN(nidn, nama, alamat, no_hp)
 VALUES('0001110127', 'Arifin Ichwani', 'Jl. Raya Serang', '')
 
-INSERT INTO DAFTAR_DOSEN(nim, nama, alamat, no_hp)
+INSERT INTO DAFTAR_DOSEN(nidn, nama, alamat, no_hp)
 VALUES('0001110128', 'Ade Siti Nurhasana', '', '')
 
 READ :
 SELECT * FROM DAFTAR_DOSEN
 
 SELECT * DAFTAR_DOSEN
-WHERE Nim = '0001110126'
+WHERE (nidn = '0001110126'
 
 SELECT * FROM DAFTAR_DOSEN
 WHERE Nama = 'Binastri Anggara'
@@ -73,13 +73,13 @@ WHERE Nama = 'Binastri Anggara'
 UPDATE:
 UPDATE DAFTAR_DOSEN
 SET alamat = 'Jl. Diponogoro'
-WHERE Nim = '0001110127'
+WHERE (nidn = '0001110127'
 
 UPDATE
 
 DELETE:
 DELETE DAFTAR_DOSEN
-WHERE nim = '0001110124'
+WHERE (nidn = '0001110124'
 
 ----------------------------------------------------------------------------------
 
